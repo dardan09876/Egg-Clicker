@@ -67,3 +67,8 @@ button:hover {
   background-color: rgb(242, 222, 0);
   color: black;
 }
+
+#eggCounter {
+  width: 200px;
+  height: 55px;
+}
