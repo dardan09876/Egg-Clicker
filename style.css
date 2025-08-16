@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to top,
+    hsla(212, 100%, 19%, 0.9),
+    hsla(212, 100%, 70%, 0.7)
+  );
+}
+
+button {
+  margin: 10px;
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  cursor: pointer;
+  height: 85px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+
+#resetButton {
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  height: 25px;
+  width: 80px;
+}
+
+#resetButton:hover {
+  background-color: hsl(0, 0%, 80%);
+  color: black;
+}
+
+#gameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#resetContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#eggCounter {
+  background-color: hsl(208, 43%, 76%);
+  color: hsl(0, 0%, 10%);
+}
+
+#collectButton {
+  background-color: rgb(144, 152, 0);
+  color: black;
+  height: 50px;
+  width: 60px;
+}
+
+#collectButton:hover {
+  background-color: rgb(242, 222, 0);
+  color: black;
+}
